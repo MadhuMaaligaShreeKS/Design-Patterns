@@ -29,5 +29,3 @@ Patterns are categorized based on their intent
 		Creational Patterns - deals with the object creation in a flexible manner.
 		Structural Patterns - focuses on how classes and objects are composed to form larger structures
 		Behavioral Patterns - focuses on how objects communicate and collaborate with each other to achieve specific behavior.
-
-
