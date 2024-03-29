@@ -1,0 +1,4 @@
+Singleton Design Pattern
+    This pattern ensures that only one instance of its kind exists and provides a single point of access to it from any part of the application.
+    This not only guarantees a faster access and retrieval of the instance but also reduced the possibility of encountering an errro or exception.
+    
