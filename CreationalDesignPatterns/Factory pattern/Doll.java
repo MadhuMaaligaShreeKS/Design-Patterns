@@ -1,3 +1,4 @@
+//Concrete classes
 class Doll extends Toy {
     @Override
     public void play() {
