@@ -1,0 +1,13 @@
+The Factory Design Pattern centralizes object creation logic, effectively hiding the details of object instantiation from the client code.
+
+Consider an example ,
+If a customer has to buy an os for iphone 
+The customer goes to  shop and asks for os and he does not need to know about what type of os  iphone need .
+The shopkeeper will have os like ios ,android ,windows  
+When the customer asks for this the shopkeeper decides which os has to be given to the customer.
+Here ,
+Class will be Operating Systems	
+Subclasses will be os versions 
+Object will be the os given to the customer.
+
+![Alt text]{}
