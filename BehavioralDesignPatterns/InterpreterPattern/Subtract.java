@@ -1,5 +1,5 @@
 package BehavioralDesignPatterns.InterpreterPattern;
-
+//non terminal expression
 class Subtract implements Expression {
     private Expression left;
     private Expression right;

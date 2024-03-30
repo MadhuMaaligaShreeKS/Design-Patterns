@@ -1,5 +1,6 @@
 package BehavioralDesignPatterns.MementoPattern;
 import java.util.Stack;
+//Originator class
 class TextEditor {
     private StringBuilder text = new StringBuilder();
     private Stack<Editor> undoStack = new Stack<>();

@@ -1,5 +1,5 @@
 package BehavioralDesignPatterns.ChainOfResponsibility;
-
+//concrete handler 2
 class Level2Support implements SupportHandler {
     private SupportHandler nextHandler;
 

@@ -12,9 +12,6 @@ public class Main {
  
         // Simulating weather change
         weatherStation.setWeather("Sunny");
- 
-        // Output:
-        // Phone Display: Weather updated - Sunny
-        // TV Display: Weather updated - Sunny
+
     }
 }

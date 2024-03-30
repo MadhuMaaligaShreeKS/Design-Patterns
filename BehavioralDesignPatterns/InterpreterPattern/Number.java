@@ -1,5 +1,5 @@
 package BehavioralDesignPatterns.InterpreterPattern;
-
+//Terminal expression
 class Number implements Expression {
     private int number;
 

@@ -1,5 +1,5 @@
 package BehavioralDesignPatterns.MementoPattern;
-
+//Memento class
 class Editor {
     private String text;
 

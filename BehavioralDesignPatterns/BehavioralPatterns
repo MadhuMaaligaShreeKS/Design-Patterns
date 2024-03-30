@@ -1,0 +1,42 @@
+Chain of Responsibility    
+The Chain of Responsibility pattern is a behavioral design pattern that allows an object to send a request along a chain of potential handlers until one of them handles the request. 
+It decouples the sender of the request from its receiver by giving multiple objects the chance to handle the request without the sender needing to know which object will ultimately process it.
+Here's how it works:
+    A client initiates a request.
+    The request is passed along a chain of handler objects.
+    Each handler decides either to process the request or to pass it along to the next handler in the chain.
+    The request is handled (processed) by one of the handlers in the chain, or it reaches the end of the chain without being handled.
+
+Command Pattern
+    Command pattern is a data driven design pattern.
+    A request is wrapped under an object as command and passed to invoker object. 
+    Invoker object looks for the appropriate object which can handle this command and passes the command to the corresponding object which executes the command.
+
+Interpreter Pattern
+    Interpreter pattern provides a way to evaluate language grammar or expression. 
+    This pattern involves implementing an expression interface which tells to interpret a particular context. 
+    This pattern is used in SQL parsing, symbol processing engine etc.
+Iterator Pattern
+    The Iterator Pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation. 
+    It allows traversal through the elements of a collection without exposing its internal structure.
+
+Mediator Pattern
+    Mediator pattern is used to reduce communication complexity between multiple objects or classes. 
+    This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling.
+
+Memento Pattern 
+    The Memento Design Pattern is a behavioral pattern that allows us to capture and restore an object’s internal state. 
+    It’s particularly useful for implementing undo functionality or managing the history of an object’s changes.
+
+Observer Pattern
+    Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, its depenedent objects are to be notified automatically.
+
+State Pattern
+    In State pattern a class behavior changes based on its state. 
+    In State pattern, we create objects which represent various states and a context object whose behavior varies as its state object changes.
+
+Strategy Pattern
+    In Strategy pattern, a class behavior or its algorithm can be changed at run time. 
+    In Strategy pattern, we create objects which represent various strategies and a context object whose behavior varies as per its strategy object. 
+    The strategy object changes the executing algorithm of the context object.
+    It is used when we have multiple algorithm for a specific task and client decides the actual implementation to be used at runtime
