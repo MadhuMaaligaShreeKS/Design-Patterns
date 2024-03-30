@@ -1,0 +1,7 @@
+Builder Pattern 
+    Builder pattern builds a complex object using simple objects and using a step by step approach.
+    A Builder class builds the final object step by step. This builder is independent of other objects.
+The main advantages of Builder Pattern are as follows:
+    It provides clear separation between the construction and representation of an object.
+    It provides better control over construction process.
+    It supports to change the internal representation of objects.

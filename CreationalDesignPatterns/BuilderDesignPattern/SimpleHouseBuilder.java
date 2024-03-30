@@ -1,5 +1,5 @@
 package CreationalDesignPatterns.BuilderDesignPattern;
-
+//concrete class
 class SimpleHouseBuilder implements HouseBuilder {
     private int floors;
     private boolean hasGarage;
