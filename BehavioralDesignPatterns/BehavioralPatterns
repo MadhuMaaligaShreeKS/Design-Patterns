@@ -40,3 +40,11 @@ Strategy Pattern
     In Strategy pattern, we create objects which represent various strategies and a context object whose behavior varies as per its strategy object. 
     The strategy object changes the executing algorithm of the context object.
     It is used when we have multiple algorithm for a specific task and client decides the actual implementation to be used at runtime
+
+Template Pattern 
+    In Template pattern, an abstract class exposes defined way(s)/template(s) to execute its methods. 
+    Its subclasses can override the method implementation as per need but the invocation is to be in the same way as defined by an abstract class. 
+
+Visitor Pattern
+    In Visitor pattern, we use a visitor class which changes the executing algorithm of an element class. By this way, execution algorithm of element can vary as and when visitor varies. 
+    The element object has to accept the visitor object so that visitor object handles the operation on the element object.
