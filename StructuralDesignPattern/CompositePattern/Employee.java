@@ -1,5 +1,5 @@
 package StructuralDesignPattern.CompositePattern;
-
+//leaf
 class Employee implements Company {
     private String name;
     private String position;

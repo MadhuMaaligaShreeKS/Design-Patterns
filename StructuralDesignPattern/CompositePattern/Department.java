@@ -1,6 +1,7 @@
 package StructuralDesignPattern.CompositePattern;
 import java.util.ArrayList;
 import java.util.List;
+//composite
 class Department implements Company{
     private String name;
     private List<Company> employees = new ArrayList<>();
