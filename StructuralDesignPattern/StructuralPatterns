@@ -15,3 +15,15 @@ Decorator Pattern
     Decorator pattern allows a user to add new functionality to an existing object without altering its structure.
     This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
 
+Facade Pattern
+    Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system. 
+    This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.
+
+Flyweight Pattern
+    Flyweight pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance. 
+    Flyweight pattern tries to reuse already existing similar kind objects by storing them and creates new object when no matching object is found.
+
+Proxy Pattern
+    In proxy pattern, a class represents functionality of another class. 
+    In proxy pattern, we create object having original object to interface its functionality to outer world.
+
